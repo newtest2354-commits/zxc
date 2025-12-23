@@ -1,7 +1,0 @@
-# TH - VLESS Configurations
-# Updated: 2025-12-23 18:56:55
-# Count: 2
-# Country Code: TH
-
-vless://65094902-5425-464d-9171-d3a69d9e1cbc@45.150.128.215:80?encryption=none&security=none&type=ws&host=t.me/v2Line&path=/#ARISTA🔥
-vless://65094902-5425-464d-9171-d3a69d9e1cbc@45.150.128.215:80?encryption=none&security=none&type=ws&host=t.me%2Fv2Line&path=%2F#ARISTA🔥

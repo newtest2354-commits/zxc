@@ -1,6 +1,0 @@
-# LV - VMESS Configurations
-# Updated: 2025-12-23 18:56:55
-# Count: 1
-# Country Code: LV
-
-vmess://eyJhZGQiOiJ5ZWxsb3dibHVlZ3JlZW5yZWQud29ybGR3ZWJodW50ZXIuY29tIiwiYWlkIjoiMCIsImhvc3QiOiJ5ZWxsb3dibHVlZ3JlZW5yZWQud29ybGR3ZWJodW50ZXIuY29tIiwiaWQiOiIzOWZmMmUxMi0wMjZiLTRlYzAtYjY2Zi1lY2Q0OTBhZmJmY2QiLCJuZXQiOiJodHRwdXBncmFkZSIsInBhdGgiOiIvIiwicG9ydCI6MjA4MywicHMiOiJBUklTVEHwn5SlIiwic2N5IjoiYXV0byIsInRscyI6Im5vbmUiLCJ0eXBlIjoiIiwidiI6IjIifQ==
