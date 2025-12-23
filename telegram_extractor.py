@@ -628,7 +628,7 @@ class TelegramConfigExtractor:
             
             if '@' not in base_part:
                 if len(base_part) % 4 != 0:
-                    base_part += '=' * (4 - len(base_part) % 4)
+                    base_part += '=' * (4 - len(base64_part) % 4)
                 try:
                     decoded = base64.b64decode(base_part).decode('utf-8')
                     if '@' in decoded:
