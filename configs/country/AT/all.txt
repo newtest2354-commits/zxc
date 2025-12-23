@@ -1,13 +1,13 @@
 # All Configurations for AT
-# Updated: 2025-12-23 16:49:10
+# Updated: 2025-12-23 18:56:55
 # Total Count: 10
 # Country Code: AT
 
+vless://826213f2-99e7-4b15-afe2-c1535c96af75@Free.fast199.hosting-ip.com:80?type=xhttp&encryption=none&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&host=Mahsazxshop.org&mode=auto&security=none#ARISTA🔥
+vless://e7667070-6bb1-4957-dbae-859e537c0f92@Free.fast199.hosting-ip.com:80?type=xhttp&encryption=none&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&host=Mahsazxshop.org&mode=auto&security=none#ARISTA🔥
 vless://36fd93e4-0125-4b2f-b629-e8e296950ae7@node1.telegavpn.org:443?security=reality&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=node1.telegavpn.org&fp=&pbk=WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA&sid=#ARISTA🔥
 vless://2dfa740c-8069-4993-8b96-c3e5dc540593@at.ultima.foundation:22231?security=reality&encryption=none&pbk=gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng&headerType=none&fp=chrome&spx=/--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS--@V2RAYNPLUS&type=tcp&flow=xtls-rprx-vision&sni=at.ultima.foundation&sid=a9725715bf4c62ff#ARISTA🔥
-vless://2dfa740c-8069-4993-8b96-c3e5dc540593@at.ultima.foundation:22231?security=reality&encryption=none&pbk=gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=at.ultima.foundation&sid=a9725715bf4c62ff#ARISTA🔥
 vless://5dfe11a3-566d-41d1-b697-94c6277b7620@212.183.88.1:2052?encryption=none&security=none&type=httpupgrade&host=ww.cloUdcdnXp.jaRicOpEn.sbS.&path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048#ARISTA🔥
-vless://ae33a896-6374-41d3-88c5-b2941e0d038c@152.53.115.178:22231?security=reality&encryption=none&pbk=gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng&headerType=none&fp=chrome&spx=/sinavm-sinavm&type=tcp&flow=xtls-rprx-vision&sni=at.ultima.foundation&sid=a9725715bf4c62ff#ARISTA🔥
 vless://d3f3fdd0-a087-9bab-0e07-ba22bd9a6e34@46.102.157.79:58096?security=none&encryption=none&host=myket.ir/?JOKERRVPNBIA_CHANEL@JOKERRVPN&headerType=http&type=tcp#ARISTA🔥
 vless://df5fc3f7-6b01-489a-a73c-e1297b14a3dd@at.monkeyisland.life:443?security=reality&encryption=none&pbk=aILMLxhAsgJvx7TY3EsxOdmIc1uB0V7aJVIXaKYPPk4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=at.monkeyisland.life&sid=c06a59f9d546bd63#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2YTg1YjI0OTI4NmE3NGE5@196.245.238.34:57456#ARISTA🔥

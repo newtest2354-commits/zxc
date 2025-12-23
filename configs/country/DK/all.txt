@@ -1,9 +1,10 @@
 # All Configurations for DK
-# Updated: 2025-12-23 16:49:10
-# Total Count: 5
+# Updated: 2025-12-23 18:56:55
+# Total Count: 6
 # Country Code: DK
 
 vless://TELEGRAM-CONFiGLiNE-81@test.fast199.hosting-ip.com:80?mode=auto&path=%2Ftelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%3Fed%3D2048&security=&encryption=none&host=byby.global.ssl.fastly.net&type=xhttp#ARISTA🔥
+vless://ddc826c6-27c4-4886-dcba-4da65956f9ac@Free.fast199.hosting-ip.com:80?type=xhttp&encryption=none&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&host=Mahsazxshop.org&mode=auto&security=none#ARISTA🔥
 vless://7e3f2fdd-d949-40b4-8882-5c1c63e48ce0@test.fast199.hosting-ip.com:80?type=xhttp&path=/@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420&host=starmnks.net&mode=auto&security=none#ARISTA🔥
 vless://TELEGRAM-CONFiGLiNE-81@test.fast199.hosting-ip.com:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&security=&encryption=none&host=byby.global.ssl.fastly.net&type=xhttp#ARISTA🔥
 vless://TELEGRAM-CONFiGLiNE-81@test.fast199.hosting-ip.com:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&security=none&encryption=none&host=byby.global.ssl.fastly.net&type=xhttp#ARISTA🔥
