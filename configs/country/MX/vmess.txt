@@ -1,6 +1,0 @@
-# MX - VMESS Configurations
-# Updated: 2025-12-23 15:27:55
-# Count: 1
-# Country Code: MX
-
-vmess://eyJ2IjoiMiIsInBzIjoiQVJJU1RB8J+UpSIsImFkZCI6IjIxNi4yMzguODcuNDciLCJwb3J0IjoiMjc1MDIiLCJpZCI6ImI4MTU1Y2U0LTdlMDgtNGM0MC04MDBmLTg2NzEzMTJiNzEyNCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoibm9uZSIsInR5cGUiOiIiLCJ0bHMiOiIifQ==
