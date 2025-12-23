@@ -1,9 +1,8 @@
 # NL - TROJAN Configurations
-# Updated: 2025-12-23 19:16:32
-# Count: 16
+# Updated: 2025-12-23 21:44:48
+# Count: 15
 # Country Code: NL
 
-trojan://tunnel-astrovpn_official028@45.112.192.29:8441?security=tls&sni=zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir&alpn=http%2F1.1&allowInsecure=1&type=tcp&headerType=none&host=45.112.192.29#ARISTA🔥
 trojan://Szb%3D-Zguo53QhmivcJqEAWtpdPX6Y@95.179.183.126:13345?type=tcp&security=tls&sni=infiniteinjera.semanticstrainer.click&allowInsecure=1#ARISTA🔥
 trojan://kuGDUhAYqXnvIomV0Kdljfor@167.17.70.117:27234?security=tls&headerType=none&type=tcp#ARISTA🔥
 trojan://Ha8emXW0_NOSEAYTy7p-wIx.G9kg@167.17.70.62:12151?security=tls&sni=ads.x5.ru&insecure=1&allowInsecure=1&type=tcp&headerType=none#ARISTA🔥
