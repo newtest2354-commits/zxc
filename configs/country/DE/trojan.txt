@@ -1,6 +1,7 @@
 # DE - TROJAN Configurations
-# Updated: 2025-12-23 15:40:42
-# Count: 1
+# Updated: 2025-12-23 16:49:10
+# Count: 2
 # Country Code: DE
 
-trojan://telegram-id-privatevpns@3.73.224.140:22222?sni=3.73.224.140&allowInsecure=1&fp=chrome&note=@freeOnlineVPN#ARISTA🔥
+trojan://KBgnXadFmC@88.99.184.17:40450?type=tcp&security=none#ARISTA🔥
+trojan://@Geek_Spot@176.97.210.2:12882/?type=tcp#ARISTA🔥

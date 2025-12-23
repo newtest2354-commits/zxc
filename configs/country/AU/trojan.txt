@@ -1,0 +1,6 @@
+# AU - TROJAN Configurations
+# Updated: 2025-12-23 16:49:10
+# Count: 1
+# Country Code: AU
+
+trojan://FR8IHksUYg@170.64.132.131:8080?security=none&headerType=http&type=tcp#ARISTA🔥
