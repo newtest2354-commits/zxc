@@ -1,10 +1,9 @@
 # IE - VLESS Configurations
-# Updated: 2025-12-23 14:56:13
-# Count: 5
+# Updated: 2025-12-23 15:27:55
+# Count: 4
 # Country Code: IE
 
-vless://c08b8aa6-77a5-4ac8-ae22-260dfff4d572@hajimamadvpnjoinsho.fast199.hosting-ip.com:80/?type=ws&path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&host=downloadha.global.ssl.fastly.net&security=none#ARISTA🔥
+vless://9e8ca7c6-7f5f-4056-b280-efd1796669ad@configline.fast.hosting-ip.com:80?encryption=none&security=none&type=xhttp&host=mastokhiar.com&path=%2Ftelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%3Fed%3D80&mode=auto#ARISTA🔥
 vless://9e8ca7c6-7f5f-4056-b280-efd1796669ad@configline.fast.hosting-ip.com:80?mode=auto&path=%2Ftelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%3Fed%3D80&security=none&encryption=none&host=mastokhiar.com&type=xhttp#ARISTA🔥
 vless://ed052da1-2cdf-451e-8212-cb4f59ba6c39@germany.fast.hosting-ip.com:80/?type=xhttp&path=%2F%3Fed%3D2048&host=cafepedia7.net&mode=auto&security=none#ARISTA🔥
-vless://9e8ca7c6-7f5f-4056-b280-efd1796669ad@configline.fast.hosting-ip.com:80?encryption=none&security=none&type=xhttp&host=mastokhiar.com&path=%2Ftelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%3Fed%3D80&mode=auto#ARISTA🔥
-vless://f70c6ca8-393d-44be-827d-5df88978ce0b@free.fast199.hosting-ip.com:80?mode=auto&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&security=none&encryption=none&host=Mahsazxshop.org&type=xhttp#ARISTA🔥
+vless://c08b8aa6-77a5-4ac8-ae22-260dfff4d572@hajimamadvpnjoinsho.fast199.hosting-ip.com:80/?type=ws&path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&host=downloadha.global.ssl.fastly.net&security=none#ARISTA🔥

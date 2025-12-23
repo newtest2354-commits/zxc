@@ -1,12 +1,11 @@
 # GitHub TROJAN Configurations
-# Updated: 2025-12-23 14:55:47
-# Count: 78
+# Updated: 2025-12-23 15:27:37
+# Count: 56
 # Source: GitHub Repositories
 
 trojan://17d3bf89-d2f0-4827-bcd0-c199fe54cd2a@green2.cdntencentmusic.com:31102?sni=green2.cdntencentmusic.com&path=/#ARISTA🔥
 trojan://17d3bf89-d2f0-4827-bcd0-c199fe54cd2a@green2.cdntencentmusic.com:35501?sni=green2.cdntencentmusic.com&path=/#ARISTA🔥
 trojan://249454d267254a52ab3c8b7906bc12ab@176.125.240.167:9443?security=reality&sni=apple.com&fp=random&pbk=mvXhdnqrOTuyX9K9Hm7632OJCFGdFwkBpw56X-aKn20&sid=aabbccdd&type=tcp&path=/#ARISTA🔥
-trojan://3846a29b-57d5-40f2-8acd-13855aa025cd@green2.cdntencentmusic.com:31103?allowInsecure=0&sni=green2.cdntencentmusic.com#ARISTA🔥
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@153.121.39.240:4054?security=tls&sni=www.nintendogames.net&path=/#ARISTA🔥
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@153.121.39.240:4054?security=tls&sni=www.nintendogames.net&type=tcp&path=/#ARISTA🔥
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@153.121.67.215:3093?sni=www.nintendogames.net&path=/#ARISTA🔥
@@ -20,62 +19,41 @@ trojan://44e660b0ee21cf3ac66aee2c08af85d2@160.16.81.84:2890?sni=www.nintendogame
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@58.152.110.104:443?security=tls&sni=www.nintendogames.net&type=tcp&path=/#ARISTA🔥
 trojan://POORIARED@172.67.134.185:443?path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560&security=tls&fp=chrome&type=ws&sni=reDfRee8.REDFree8.ir#ARISTA🔥
 trojan://Szb%3D-Zguo53QhmivcJqEAWtpdPX6Y@95.179.183.126:13345?type=tcp&security=tls&sni=infiniteinjera.semanticstrainer.click&allowInsecure=1#ARISTA🔥
+trojan://a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e@green2.cdntencentmusic.com:31102?sni=green2.cdntencentmusic.com#ARISTA🔥
 trojan://bb824a22-b7ce-427b-9ed6-1adf0751da02@107.174.82.102.sslip.io:443?security=tls&sni=107.174.82.102.sslip.io&type=ws&path=/gXKGj8a1tp1nNbZEcRugowKV#ARISTA🔥
 trojan://cf142ac0-4bae-4c4b-9882-21fc0550a661@188.114.97.3:443?sni=red-dream-2d6c.xepis84786.workers.dev&type=ws&path=/?ed=2560&fp=chrome#ARISTA🔥
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@202.181.103.246:1334?security=tls&insecure=1&headerType=none&type=tcp&allowInsecure=1&sni=www.nintendogames.net#ARISTA🔥
 trojan://dkp96mJVuj@5.175.249.117:443?security=reality&sni=google.com&fp=chrome&pbk=kEfLVGaYdINZml2Jz3NMy8dMhlsXY8PiF08dtGN4cH8&sid=9715efa856269398&spx=/&type=tcp&headerType=http&host=www.namasha.com,s45.namasha.com#ARISTA🔥
-trojan://tRxkV-KcTuypP%3D8Yj6Bgd@70.34.220.34:25599?type=tcp&security=tls&sni=cryptographiccupcake.silentrocket.click&allowInsecure=1#ARISTA🔥
 trojan://telegram-id-directvpn@15.236.107.136:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-directvpn@3.73.224.140:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
-trojan://telegram-id-directvpn@35.158.205.73:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-directvpn@35.180.13.228:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-directvpn@35.181.241.61:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
+trojan://telegram-id-directvpn@52.58.135.191:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
+trojan://telegram-id-directvpn@63.182.42.237:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-directvpn@63.182.69.186:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-privatevpns@15.236.107.136:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-privatevpns@3.73.224.140:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
-trojan://telegram-id-privatevpns@35.158.205.73:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-privatevpns@35.180.13.228:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-privatevpns@35.181.241.61:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
+trojan://telegram-id-privatevpns@52.58.135.191:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
+trojan://telegram-id-privatevpns@63.182.42.237:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://telegram-id-privatevpns@63.182.69.186:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://tpCznR-P5%3DjZUb%23c@66.245.193.152:17126?security=tls&headerType=none&type=tcp&sni=ctaldikgfyw.uefahpgsyz.click#ARISTA🔥
 trojan://trojan@ip.sb:8443?path=/&security=tls&host=fofang.pages.dev&type=ws&sni=fofang.pages.dev#ARISTA🔥
-trojan://zWFjJENcljZm@usa.visa.com:443?sni=vahidqaz-7o61u7.vahidqaz.workers.dev&type=ws&path=/?ed=2560&fp=chrome#ARISTA🔥
 trojan://dkp96mJVuj@5.175.249.117:443?security=reality&sni=google.com&fp=chrome&pbk=kEfLVGaYdINZml2Jz3NMy8dMhlsXY8PiF08dtGN4cH8&sid=9715efa856269398&spx=%2F&type=tcp&headerType=http&host=www.namasha.com%2Cs45.namasha.com#ARISTA🔥
 trojan://POORIARED@172.67.134.185:443?path=%2FeyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560&security=tls&fp=chrome&type=ws&sni=reDfRee8.REDFree8.ir#ARISTA🔥
-trojan://9BbIGN.nF=gztO-iq7ETmxdJ@45.76.94.79:13448?sni=ads.x5.ru&allowInsecure=1&fp=chrome#ARISTA🔥
-trojan://OdgHycGphesfLmPMYolUF@172.238.229.254:14051?security=tls&insecure=1&headerType=&fp=chrome&type=tcp&allowInsecure=1&sni=api.avito.ru&note=@freeOnlineVPN#ARISTA🔥
-trojan://OdgHycGphesfLmPMYolUF@172.238.229.254:14051?sni=api.avito.ru&allowInsecure=1&fp=chrome&note=@freeOnlineVPN#ARISTA🔥
-trojan://OdgHycGphesfLmPMYolUF@172.238.229.254:14051?security=tls&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=api.avito.ru&note=@freeOnlineVPN#ARISTA🔥
-trojan://OdgHycGphesfLmPMYolUF@172.238.229.254:14051?security=tls&sni=api.avito.ru&allowInsecure=1&type=tcp&headerType=none&note=@freeOnlineVPN#ARISTA🔥
-trojan://OdgHycGphesfLmPMYolUF@172.238.229.254:14051/?type=tcp&security=tls&sni=api.avito.ru&allowInsecure=1&note=@freeOnlineVPN#ARISTA🔥
-trojan://POORIARED@172.67.134.185:443?path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed&security=tls&fp=chrome&type=ws&sni=reDfRee8.REDFree8.ir&note=@freeOnlineVPN#ARISTA🔥
-trojan://ZblhWr0mqMakCPg.N@212.193.18.144:36158/?type=tcp&security=tls&sni=ya.ru&allowInsecure=1&note=@freeOnlineVPN#ARISTA🔥
-trojan://a5inYFE=JGV89+hjxIqgDp1tcWBd6@80.173.230.196:26279/?type=tcp&security=tls&sni=io.ozone.ru&allowInsecure=1&note=@freeOnlineVPN#ARISTA🔥
-trojan://a5inYFE=JGV89+hjxIqgDp1tcWBd6@80.173.230.196:26279/?type=tcp&security=tls&sni=io.ozone.ru&allowInsecure=1&fp=chrome&note=@freeOnlineVPN#ARISTA🔥
-trojan://a5inYFE=JGV89+hjxIqgDp1tcWBd6@80.173.230.196:26279?sni=io.ozone.ru&allowInsecure=1&fp=chrome&note=@freeOnlineVPN#ARISTA🔥
-trojan://kuGDUhAYqXnvIomV0Kdljfor@167.17.70.117:27234/?type=tcp&security=tls&allowInsecure=1&note=@freeOnlineVPN#ARISTA🔥
-trojan://RPyW62_b9aH.ztJKeArou@83.143.87.9:18581/?type=tcp&security=tls&allowInsecure=1&note=@freeOnlineVPN#ARISTA🔥
-trojan://POORIARED@172.67.134.185:443?security=tls&sni=reDfRee8.REDFree8.ir&fp=chrome&allowInsecure=1&type=ws&path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560&note=@freeOnlineVPN#ARISTA🔥
-trojan://POORIARED@172.67.134.185:443?sni=reDfRee8.REDFree8.ir&allowInsecure=1&type=ws&path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560&fp=chrome&note=@freeOnlineVPN#ARISTA🔥
-trojan://POORIARED@172.67.134.185:443?path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560&security=tls&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=reDfRee8.REDFree8.ir&note=@freeOnlineVPN#ARISTA🔥
-trojan://POORIARED@172.67.134.185:443?sni=reDfRee8.REDFree8.ir&type=ws&path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed&fp=chrome&note=@freeOnlineVPN#ARISTA🔥
+trojan://a5inYFE=JGV89+hjxIqgDp1tcWBd6@80.173.230.196:26279?security=tls&headerType=none&fp=chrome&type=tcp&sni=io.ozone.ru#ARISTA🔥
+trojan://OdgHycGphesfLmPMYolUF@172.238.229.254:14051?sni=api.avito.ru&allowInsecure=1&fp=chrome#ARISTA🔥
+trojan://BxceQaOe@58.152.25.71:443?security=tls&insecure=1&headerType=&type=tcp&allowInsecure=1&sni=t.me%2Fripaojiedian#ARISTA🔥
+trojan://79314e99f0a473fe86efc7827942ad00@160.16.70.180:1331?security=tls&headerType=none&type=tcp&sni=www.nintendogames.net#ARISTA🔥
 trojan://POORIARED@172.67.134.185:443?path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560&security=tls&fp=chrome&type=ws&sni=reDfRee8.REDFree8.ir&note=@freeOnlineVPN#ARISTA🔥
-trojan://RPyW62_b9aH.ztJKeArou@83.143.87.9:18581?security=tls&allowInsecure=true#ARISTA🔥
-trojan://OdgHycGphesfLmPMYolUF@172.238.229.254:14051?security=tls&sni=api.avito.ru&allowInsecure=true&fp=chrome#ARISTA🔥
-trojan://kuGDUhAYqXnvIomV0Kdljfor@167.17.70.117:27234?security=tls&allowInsecure=true#ARISTA🔥
-trojan://BxceQaOe@58.152.26.107:443?security=tls&sni=🔒+[By+EbraSha]+b2n.ir/v2ray-configs+%7C+51+&allowInsecure=true&fp=chrome#ARISTA🔥
-trojan://44e660b0ee21cf3ac66aee2c08af85d2@160.16.116.227:2760?allowInsecure=1&sni=www.nintendogames.net#ARISTA🔥
-trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#ARISTA🔥
-trojan://BxceQaOe@58.152.25.71:443?allowInsecure=1&sni=t.me%2Fripaojiedian#ARISTA🔥
-trojan://04a6a322-b08e-4635-99af-219c01ade7dd@220.130.58.138:31104?allowInsecure=0&sni=green2.cdntencentmusic.com#ARISTA🔥
-trojan://4b33b482-25bc-49e4-b866-878c914d945a@104.21.7.147:443/?type=tcp&security=tls&sni=44444444.HuanGShANG.DPDNs.oRG&allowInsecure=1#ARISTA🔥
-trojan://5a2c16f9@104.19.220.22:443?allowInsecure=0&sni=snippets.kkii.eu.org&ws=1&wspath=%2F#ARISTA🔥
-trojan://5a2c16f9@104.19.55.205:443?allowInsecure=0&sni=snippets.kkii.eu.org&ws=1&wspath=%2F#ARISTA🔥
-trojan://5a2c16f9@777.ai7777777.xyz:443?sni=snippets.kkii.eu.org#ARISTA🔥
+trojan://BxceQaOe@219.79.214.159:443?sni=t.me%252Fripaojiedian&allowInsecure=1&fp=chrome#ARISTA🔥
+trojan://44e660b0ee21cf3ac66aee2c08af85d2@160.16.107.37:3169?sni=www.nintendogames.net&fp=chrome#ARISTA🔥
 trojan://BxceQaOe@18.177.141.4:2762?allowInsecure=1&sni=t.me%252Fripaojiedian#ARISTA🔥
 trojan://telegram-id-privatevpns@15.236.107.136:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e@green2.cdntencentmusic.com:34411?security=tls&sni=green2.cdntencentmusic.com#ARISTA🔥
 trojan://BxceQaOe@58.152.26.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#ARISTA🔥
+trojan://BxceQaOe@58.152.25.71:443?allowInsecure=1&sni=t.me%2Fripaojiedian#ARISTA🔥
 trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.172:10889?security=tls&amp;insecure=1&amp;headerType=none&amp;type=tcp&amp;allowInsecure=1&amp;sni=web.max.ru#ARISTA🔥
 trojan://ZblhWr0mqMakCPg.N@212.193.18.144:36158?security=tls&amp;sni=ya.ru&amp;allowInsecure=true#ARISTA🔥
 trojan://OdgHycGphesfLmPMYolUF@172.238.229.254:14051?security=tls&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=api.avito.ru#ARISTA🔥
