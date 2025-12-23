@@ -1,0 +1,7 @@
+# CA - VLESS Configurations
+# Updated: 2025-12-23 14:56:13
+# Count: 2
+# Country Code: CA
+
+vless://c82d0254-ec06-42d3-bf01-5834cf2865e1@pop.netbazchanell.ir:2087?mode=gun&security=tls&encryption=none&insecure=0&type=grpc&allowInsecure=0#ARISTA🔥
+vless://c82d0254-ec06-42d3-bf01-5834cf2865e1@pop.netbazchanell.ir:2087?mode=gun&amp;security=tls&amp;encryption=none&amp;type=grpc#ARISTA🔥

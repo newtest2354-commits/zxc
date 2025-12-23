@@ -1,0 +1,7 @@
+# NO - TROJAN Configurations
+# Updated: 2025-12-23 14:56:13
+# Count: 2
+# Country Code: NO
+
+trojan://RPyW62_b9aH.ztJKeArou@83.143.87.9:18581/?type=tcp&security=tls&allowInsecure=1&note=@freeOnlineVPN#ARISTA🔥
+trojan://RPyW62_b9aH.ztJKeArou@83.143.87.9:18581?security=tls&allowInsecure=true#ARISTA🔥
