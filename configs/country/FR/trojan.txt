@@ -1,0 +1,6 @@
+# FR - TROJAN Configurations
+# Updated: 2025-12-24 17:13:29
+# Count: 1
+# Country Code: FR
+
+trojan://telegram-id-privatevpns@13.36.126.131:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#ARISTA🔥

@@ -1,0 +1,6 @@
+# SE - TROJAN Configurations
+# Updated: 2025-12-24 17:13:29
+# Count: 1
+# Country Code: SE
+
+trojan://ptM0AjehKC@x7-sweden-amazon-v2-ku4u8.devefun.org:1935?security=tls&headerType=none&type=tcp&sni=x7-sweden-amazon-v2-ku4u8.devefun.org#ARISTA🔥

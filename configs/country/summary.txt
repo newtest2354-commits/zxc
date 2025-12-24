@@ -1,35 +1,96 @@
 # Country Classification Summary
-# Updated: 2025-12-24 15:51:55
+# Updated: 2025-12-24 17:13:29
 
-Total configs processed: 23048
-Successfully classified: 9293
-Failed to classify: 2231
-With TLS: 8129
-Without TLS: 1164
-CDN domains: 174
+Total configs processed: 22872
+Successfully classified: 8519
+Failed to classify: 2917
 
 By Country:
-  IR: 6148
-  DE: 1389
-  US: 979
-  NL: 423
-  CDN: 174
-  TR: 123
-  SG: 57
+  UNKNOWN: 2311
+  US: 1876
+  RU: 850
+  DE: 833
+  MD: 276
+  NL: 276
+  IR: 221
+  FI: 205
+  FR: 194
+  GB: 168
+  PL: 161
+  IE: 116
+  SE: 107
+  CY: 97
+  TR: 78
+  LT: 64
+  CA: 61
+  CH: 59
+  HK: 52
+  AE: 42
+  SG: 41
+  VN: 39
+  IT: 31
+  BG: 30
+  JP: 29
+  CZ: 26
+  ES: 16
+  UA: 15
+  AL: 15
+  AZ: 13
+  IN: 12
+  LV: 12
+  BR: 11
+  AT: 10
+  MK: 10
+  KZ: 9
+  NO: 9
+  MY: 8
+  CN: 7
+  SK: 7
+  EE: 7
+  AU: 7
+  MX: 6
+  DK: 5
+  GR: 5
+  SI: 5
+  PT: 5
+  AM: 4
+  ID: 4
+  LU: 4
+  RO: 4
+  RS: 4
+  TW: 4
+  KR: 4
+  ZA: 4
+  MT: 4
+  LI: 3
+  IL: 3
+  IS: 3
+  TH: 3
+  HU: 3
+  EC: 3
+  AR: 3
+  ME: 2
+  BE: 2
+  PA: 2
+  PE: 2
+  BH: 2
+  PR: 2
+  CO: 2
+  VG: 1
+  PK: 1
+  MA: 1
+  EG: 1
+  CR: 1
+  GT: 1
+  PY: 1
+  BO: 1
+  KH: 1
+  GE: 1
+  CL: 1
 
 By Protocol:
-  vless: 7668
-  ss: 857
-  vmess: 498
-  trojan: 268
+  vless: 7171
+  ss: 851
+  vmess: 331
+  trojan: 164
   hysteria: 2
-
-By Transport:
-  tcp: 4586
-  ws: 3106
-  grpc: 1071
-  http: 525
-  udp: 2
-  kcp: 1
-  httpupgrade: 1
-  xhttp: 1

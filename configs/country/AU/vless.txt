@@ -1,0 +1,7 @@
+# AU - VLESS Configurations
+# Updated: 2025-12-24 17:13:29
+# Count: 2
+# Country Code: AU
+
+vless://35f591c6-0932-4c68-a831-4fe6ecf00b85@170.64.171.83:36402?security=&type=tcp&encryption=none#ARISTA🔥
+vless://704b1191-3bac-42b7-93a4-9d3be4cd79b0@ubuntu-fl-hz.xirix.li:2082?path=/?ed=#ARISTA🔥
