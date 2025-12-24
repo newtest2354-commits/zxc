@@ -1,35 +1,34 @@
 {
-  "total": 22638,
-  "success": 9124,
-  "failed": 2195,
+  "total": 22826,
+  "success": 9198,
+  "failed": 2215,
   "by_country": {
-    "IR": 6022,
-    "US": 989,
-    "NL": 414,
-    "DE": 1348,
-    "CDN": 172,
-    "SG": 56,
-    "TR": 123
+    "DE": 1360,
+    "IR": 5992,
+    "US": 1069,
+    "TR": 123,
+    "NL": 426,
+    "SG": 57,
+    "CDN": 171
   },
   "by_protocol": {
-    "vless": 7518,
+    "vless": 7597,
     "hysteria": 2,
-    "trojan": 262,
-    "vmess": 493,
-    "ss": 849
+    "trojan": 256,
+    "vmess": 495,
+    "ss": 848
   },
   "by_transport": {
-    "tcp": 4435,
-    "ws": 3078,
-    "http": 519,
-    "grpc": 1086,
+    "tcp": 4465,
+    "ws": 3103,
+    "http": 526,
+    "grpc": 1099,
     "udp": 2,
     "kcp": 1,
     "httpupgrade": 1,
-    "none": 1,
     "xhttp": 1
   },
-  "with_tls": 7973,
-  "without_tls": 1151,
-  "cdn_count": 172
+  "with_tls": 8045,
+  "without_tls": 1153,
+  "cdn_count": 171
 }
