@@ -1,23 +1,24 @@
 # All Configurations for CDN
-# Updated: 2025-12-24 03:59:59
+# Updated: 2025-12-24 07:14:01
 # Total Count: 172
 # Country Code: CDN
 
-vless://67f88640-bca3-48ee-b1cf-42fe364399c1@ns.cloudflare.com:8880?path=%2F%40iraniV2ray_config%2C+%40iraniV2ray_config%2F%3Fed%3D2560&security=none&encryption=none&host=iraniV2ray.nanowaash-shop.ir.&type=httpupgrade#ARISTA🔥
-vless://b1f74879-f4a1-415f-ad8a-c92d9ef5376a@ns.cloudflare.com:8880?path=%2F%40iraniV2ray_config%2C+%40iraniV2ray_config%2F%3Fed%3D2560&security=none&encryption=none&host=iraniV2ray.nanowaash-shop.ir.&type=httpupgrade#ARISTA🔥
+vless://fa0dd13b-6d2a-4558-815b-7252196aeb8a@norman.ns.cloudflare.com:443?path=%2Fvtenwows&security=tls&encryption=none&host=639005752550846284.accord-lmnxa.info&fp=chrome&type=ws&sni=639005752550846284.accord-lmnxa.info#ARISTA🔥
 vless://V2Net_iran@speed.cloudflare.com:8443?path=%2FV2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN-V2NET-IRAN&security=tls&encryption=none&alpn=h2,http/1.1&host=v2net-iran-v2ray-nl.morgensport.nl&fp=edge&type=ws&sni=v2net-iran-v2ray-nl.morgensport.nl#ARISTA🔥
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=%2Fcahttingws&security=tls&encryption=none&host=639008791615856318.golf-amsix.info&type=ws&sni=639008791615856318.golf-amsix.info#ARISTA🔥
+vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?path=%2Ffwgisws&security=tls&encryption=none&insecure=0&host=hazmkardan.info&type=ws&allowInsecure=0&sni=hazmkardan.info#ARISTA🔥
 vless://b13b2b1a-2162-40e6-bbe8-590a9af9f223@ns.cloudflare.com:80?path=%2Fdhcfh%2F%3Fed%3D2560&security=none&encryption=none&host=ger1.nanowaash-shop.ir&type=httpupgrade#ARISTA🔥
 vless://67f88640-bca3-48ee-b1cf-42fe364399c1@ns.cloudflare.com:80?path=%2F%40iraniV2ray_config%2C+%40iraniV2ray_config%2F%3Fed%3D2560&security=none&encryption=none&host=iraniV2ray.nanowaash-shop.ir&type=httpupgrade#ARISTA🔥
-vless://fa0dd13b-6d2a-4558-815b-7252196aeb8a@norman.ns.cloudflare.com:443?path=%2Fvtenwows&security=tls&encryption=none&host=639005752550846284.accord-lmnxa.info&fp=chrome&type=ws&sni=639005752550846284.accord-lmnxa.info#ARISTA🔥
-vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=%2Fcahttingws&security=tls&encryption=none&host=639001966559981133.yaris-amsiq.info&type=ws&sni=639001966559981133.yaris-amsiq.info#ARISTA🔥
+vless://67f88640-bca3-48ee-b1cf-42fe364399c1@ns.cloudflare.com:8880?path=%2F%40iraniV2ray_config%2C+%40iraniV2ray_config%2F%3Fed%3D2560&security=none&encryption=none&host=iraniV2ray.nanowaash-shop.ir.&type=httpupgrade#ARISTA🔥
+vless://b1f74879-f4a1-415f-ad8a-c92d9ef5376a@ns.cloudflare.com:8880?path=%2F%40iraniV2ray_config%2C+%40iraniV2ray_config%2F%3Fed%3D2560&security=none&encryption=none&host=iraniV2ray.nanowaash-shop.ir.&type=httpupgrade#ARISTA🔥
+vless://f2119e6c-685b-45bb-97de-229696cb30c7@brenna.ns.cloudflare.com:443?security=tls&type=ws&path=%2Fbytyguws&host=639020094881472575.defender-amsjk.info&sni=639020094881472575.defender-amsjk.info&fp=chrome#ARISTA🔥
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=%2Fsghiyws&security=tls&encryption=none&host=terazhedi.info&fp=chrome&type=ws&sni=terazhedi.info#ARISTA🔥
 vless://5b687f17-0176-495e-84a1-0835f8feec91@delilah.ns.cloudflare.com:443?path=%2Fegakxows&security=tls&encryption=none&host=639002592262919469.sentra-amsir.info&fp=chrome&type=ws&sni=639002592262919469.sentra-amsir.info#ARISTA🔥
-vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?path=%2Ffwgisws&security=tls&encryption=none&insecure=0&host=hazmkardan.info&type=ws&allowInsecure=0&sni=hazmkardan.info#ARISTA🔥
-vless://42a833ca-be47-434b-a45a-8c5dcb4ae4fa@betty.ns.cloudflare.com:443?path=%2Fybkqtgws&security=tls&encryption=none&host=638991523882288916.impreza-amsia.info&type=ws&sni=638991523882288916.impreza-amsia.info#ARISTA🔥
-vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?encryption=none&security=tls&sni=hazmkardan.info&insecure=0&allowInsecure=0&type=ws&host=hazmkardan.info&path=%2Ffwgisws#ARISTA🔥
-vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?path=%2Ffwgisws&security=tls&encryption=none&insecure=1&host=hazmkardan.info&type=ws&allowInsecure=1&sni=hazmkardan.info#ARISTA🔥
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=%2Fsghiyws&security=tls&encryption=none&type=ws&sni=terazhedi.info#ARISTA🔥
+vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=%2Fcahttingws&security=tls&encryption=none&host=639001966559981133.yaris-amsiq.info&type=ws&sni=639001966559981133.yaris-amsiq.info#ARISTA🔥
+vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?path=%2Ffwgisws&security=tls&encryption=none&insecure=1&host=hazmkardan.info&type=ws&allowInsecure=1&sni=hazmkardan.info#ARISTA🔥
+vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?encryption=none&security=tls&sni=hazmkardan.info&insecure=0&allowInsecure=0&type=ws&host=hazmkardan.info&path=%2Ffwgisws#ARISTA🔥
+vless://42a833ca-be47-434b-a45a-8c5dcb4ae4fa@betty.ns.cloudflare.com:443?path=%2Fybkqtgws&security=tls&encryption=none&host=638991523882288916.impreza-amsia.info&type=ws&sni=638991523882288916.impreza-amsia.info#ARISTA🔥
 vless://4ea236b3-c40b-42df-9cd4-f9b76dca5ab4@ns1.cloudflare.com:443?security=tls&sni=rAyAn-cOnFiG-tr-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-tr-1.pArSa.dPdNs.oRg&encryption=none#ARISTA🔥
 vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=%2Fyhowcws&security=tls&encryption=none&host=azizoarjmand.info&fp=chrome&allowinsecure=0&type=ws&sni=azizoarjmand.info#ARISTA🔥
 vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=%2Fyhowcws&security=tls&encryption=none&insecure=1&host=azizoarjmand.info&fp=chrome&type=ws&allowInsecure=1&sni=azizoarjmand.info#ARISTA🔥
@@ -43,9 +44,8 @@ vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?encryp
 vless://b5605766-6abe-4f5f-85e1-0f6f447eae66@cosmin.ns.cloudflare.com:443?path=%2Fhdwvmtws&security=tls&encryption=none&host=639013098070588901.macan-amsjd.info&type=ws&sni=639013098070588901.macan-amsjd.info#ARISTA🔥
 vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?path=%2Ffwgisws&security=tls&encryption=none&host=hazmkardan.info&type=ws&sni=hazmkardan.info#ARISTA🔥
 vless://7270612b-49f6-4b04-999c-34d8263da767@cosmin.ns.cloudflare.com:443?path=%2Faymdlws&security=tls&encryption=none&host=picassoo.info&type=ws&sni=picassoo.info#ARISTA🔥
-vless://be8ef73a-8de1-42d3-bd23-8af5136965dc@betty.ns.cloudflare.com:443?&security=tls&sni=639019658846913233.insight-amsjk.info&type=ws&headerType=none&host=639019658846913233.insight-amsjk.info&path=%2Fflmigjws#ARISTA🔥
+vless://f2119e6c-685b-45bb-97de-229696cb30c7@brenna.ns.cloudflare.com:443?&security=tls&sni=639020094881472575.defender-amsjk.info&type=ws&headerType=none&host=639020094881472575.defender-amsjk.info&path=%2Fbytyguws#ARISTA🔥
 vless://39a192ed-7e78-42f4-b956-2f0ea17f677f@delilah.ns.cloudflare.com:443?encryption=none&amp;security=tls&amp;sni=639018301854287215.camry-amsjk.info&amp;type=ws&amp;host=639018301854287215.camry-amsjk.info&amp;path=/rbjisuws&amp;packetEncoding=xudp#ARISTA🔥
-vless://1af7c381-6116-4314-9544-0647889b5702@norman.ns.cloudflare.com:443?path=%2Ftysgakws&security=tls&encryption=none&insecure=0&host=639019911858443948.stinger-amsjk.info&type=ws&allowInsecure=0&sni=639019911858443948.stinger-amsjk.info#ARISTA🔥
 vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=%2Fyhowcws&security=tls&encryption=none&host=azizoarjmand.info&type=ws&sni=azizoarjmand.info#ARISTA🔥
 vless://94daa8ad-75ed-4dbf-a6de-d05036d98df5@betty.ns.cloudflare.com:443?path=%2Ftixvuws&security=tls&encryption=none&host=vangoghh.info&type=ws&sni=vangoghh.info#ARISTA🔥
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=%2Fsghiyws&security=tls&encryption=none&host=terazhedi.info&type=ws&sni=terazhedi.info#ARISTA🔥
