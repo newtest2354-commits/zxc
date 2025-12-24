@@ -22,162 +22,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-class ConfigNormalizer:
-    def __init__(self):
-        self.transport_patterns = {
-            'ws': ['type=ws', 'websocket', 'ws=true'],
-            'tcp': ['type=tcp'],
-            'kcp': ['type=kcp'],
-            'quic': ['type=quic'],
-            'grpc': ['type=grpc'],
-            'h2': ['type=h2', 'h2=true'],
-            'http': ['type=http', 'http=true']
-        }
-    
-    def normalize(self, parsed_config: Dict) -> Dict:
-        protocol = parsed_config.get('protocol', 'unknown')
-        host = parsed_config.get('host', '')
-        port = parsed_config.get('port', 0)
-        raw = parsed_config.get('raw', '')
-        
-        transport = 'tcp'
-        is_tls = False
-        
-        if protocol in ['vmess', 'vless', 'trojan']:
-            is_tls = True
-            if protocol == 'vmess':
-                try:
-                    base64_part = raw[8:]
-                    if len(base64_part) % 4 != 0:
-                        base64_part += '=' * (4 - len(base64_part) % 4)
-                    vmess_data = json.loads(base64.b64decode(base64_part).decode('utf-8'))
-                    
-                    net_type = vmess_data.get('net', 'tcp')
-                    transport = net_type
-                    
-                    if 'tls' in vmess_data.get('tls', ''):
-                        is_tls = True
-                    else:
-                        is_tls = False
-                except:
-                    pass
-            elif protocol in ['vless', 'trojan']:
-                if '?tls=' in raw or 'security=tls' in raw or '&tls=true' in raw:
-                    is_tls = True
-                
-                for key in self.transport_patterns:
-                    for pattern in self.transport_patterns[key]:
-                        if pattern in raw.lower():
-                            transport = key
-                            break
-        elif protocol in ['hysteria', 'hysteria2', 'hy2', 'tuic']:
-            transport = 'udp'
-            is_tls = False
-        elif protocol == 'wireguard':
-            transport = 'udp'
-            is_tls = False
-        
-        return {
-            'protocol': protocol,
-            'host': host,
-            'port': port,
-            'transport': transport,
-            'tls': is_tls,
-            'raw': raw
-        }
-
-class SmartCountryDetector:
-    def __init__(self):
-        self.test_regions = {
-            'IR': {'latency_weight': 0.7, 'geoip_weight': 0.3},
-            'TR': {'latency_weight': 0.6, 'geoip_weight': 0.4},
-            'DE': {'latency_weight': 0.5, 'geoip_weight': 0.5},
-            'NL': {'latency_weight': 0.5, 'geoip_weight': 0.5},
-            'US': {'latency_weight': 0.4, 'geoip_weight': 0.6},
-            'SG': {'latency_weight': 0.5, 'geoip_weight': 0.5}
-        }
-        
-        self.protocol_weights = {
-            'hysteria': {'latency': 0.8, 'geoip': 0.2},
-            'hysteria2': {'latency': 0.8, 'geoip': 0.2},
-            'hy2': {'latency': 0.8, 'geoip': 0.2},
-            'tuic': {'latency': 0.7, 'geoip': 0.3},
-            'wireguard': {'latency': 0.7, 'geoip': 0.3},
-            'vmess': {'latency': 0.4, 'geoip': 0.6},
-            'vless': {'latency': 0.4, 'geoip': 0.6},
-            'trojan': {'latency': 0.4, 'geoip': 0.6},
-            'ss': {'latency': 0.3, 'geoip': 0.7}
-        }
-    
-    def estimate_latency(self, ip: str, protocol: str, transport: str) -> Dict[str, float]:
-        base_latency = 100.0
-        
-        try:
-            if ':' in ip:
-                base_latency = 150.0
-            
-            if protocol in ['hysteria', 'hysteria2', 'hy2', 'tuic', 'wireguard']:
-                base_latency *= 0.8
-            
-            if transport == 'udp':
-                base_latency *= 0.9
-            elif transport in ['ws', 'grpc']:
-                base_latency *= 1.1
-            
-            return {
-                'IR': base_latency * 0.8,
-                'TR': base_latency * 0.9,
-                'DE': base_latency * 1.0,
-                'NL': base_latency * 1.0,
-                'US': base_latency * 1.5,
-                'SG': base_latency * 1.3
-            }
-        except:
-            return {}
-    
-    def calculate_country_score(self, geoip_country: str, protocol: str, 
-                               transport: str, ip: str) -> Tuple[str, float]:
-        
-        latencies = self.estimate_latency(ip, protocol, transport)
-        
-        if not latencies:
-            return geoip_country, 0.5
-        
-        protocol_weights = self.protocol_weights.get(protocol, {'latency': 0.5, 'geoip': 0.5})
-        
-        best_country = geoip_country
-        best_score = 0.0
-        
-        for region in self.test_regions:
-            region_weights = self.test_regions[region]
-            
-            latency_score = 0.0
-            if region in latencies:
-                latency = latencies[region]
-                if latency < 50:
-                    latency_score = 1.0
-                elif latency < 100:
-                    latency_score = 0.8
-                elif latency < 200:
-                    latency_score = 0.6
-                elif latency < 300:
-                    latency_score = 0.4
-                else:
-                    latency_score = 0.2
-            
-            geoip_score = 1.0 if region == geoip_country else 0.1
-            
-            weighted_latency = latency_score * protocol_weights['latency'] * region_weights['latency_weight']
-            weighted_geoip = geoip_score * protocol_weights['geoip'] * region_weights['geoip_weight']
-            
-            total_score = weighted_latency + weighted_geoip
-            
-            if total_score > best_score:
-                best_score = total_score
-                best_country = region
-        
-        return best_country, best_score
-
 class ConfigParser:
     def __init__(self):
         self.lock = threading.Lock()
@@ -189,9 +33,6 @@ class ConfigParser:
             'azure': ['.azureedge.net', '.azurefd.net'],
             'google': ['.googleusercontent.com', '.gstatic.com', '.googlehosted.com']
         }
-        
-        self.normalizer = ConfigNormalizer()
-        self.country_detector = SmartCountryDetector()
     
     def parse_vmess(self, config_str: str) -> Optional[Dict]:
         try:
@@ -389,14 +230,6 @@ class ConfigParser:
         if sni:
             return sni
         return host
-    
-    def get_normalized_config(self, config_str: str) -> Optional[Dict]:
-        parsed = self.parse_config(config_str)
-        if not parsed:
-            return None
-        
-        normalized = self.normalizer.normalize(parsed)
-        return normalized
 
 class DNSResolver:
     def __init__(self):
@@ -567,93 +400,48 @@ class CountryClassifier:
         self.max_workers = max_workers
         self.results_lock = threading.Lock()
         self.results: Dict[str, Dict[str, List[str]]] = {}
-        self.detailed_results: Dict[str, Dict] = {}
         self.stats = {
             'total': 0,
             'success': 0,
             'failed': 0,
             'by_country': {},
-            'by_protocol': {},
-            'by_transport': {},
-            'with_tls': 0,
-            'without_tls': 0,
-            'cdn_count': 0
+            'by_protocol': {}
         }
     
     def process_single_config(self, config_str: str) -> Optional[Dict]:
         try:
-            normalized = self.parser.get_normalized_config(config_str)
-            if not normalized:
+            parsed = self.parser.parse_config(config_str)
+            if not parsed:
                 return None
             
-            target_host = normalized.get('host', '')
+            target_host = self.parser.get_target_host(parsed)
             if not target_host:
                 return None
             
             is_ip = re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', target_host)
-            
             if not is_ip:
                 is_ipv6 = ':' in target_host and not target_host.startswith('[')
                 if not is_ipv6:
-                    is_cdn, cdn_provider = self.parser.is_cdn_domain(target_host)
-                    if is_cdn:
-                        return {
-                            'config': config_str,
-                            'normalized': normalized,
-                            'ip': target_host,
-                            'country': 'CDN',
-                            'is_cdn': True,
-                            'cdn_provider': cdn_provider,
-                            'host': target_host,
-                            'confidence': 0.5
-                        }
-                    
                     ips = self.dns_resolver.resolve(target_host, timeout=3.0)
                     if not ips:
                         return None
                     ip = ips[0]
                 else:
                     ip = target_host
-                    is_cdn = False
-                    cdn_provider = ''
             else:
                 ip = target_host
-                is_cdn = False
-                cdn_provider = ''
             
-            if is_cdn:
-                return {
-                    'config': config_str,
-                    'normalized': normalized,
-                    'ip': ip,
-                    'country': 'CDN',
-                    'is_cdn': True,
-                    'cdn_provider': cdn_provider,
-                    'host': target_host,
-                    'confidence': 0.5
-                }
-            
-            geoip_country = self.geoip.get_country(ip)
-            
-            protocol = normalized.get('protocol', 'unknown')
-            transport = normalized.get('transport', 'tcp')
-            
-            final_country, confidence = self.parser.country_detector.calculate_country_score(
-                geoip_country, protocol, transport, ip
-            )
+            is_cdn, cdn_provider = self.parser.is_cdn_domain(target_host)
+            country = self.geoip.get_country(ip)
             
             return {
                 'config': config_str,
-                'normalized': normalized,
+                'parsed': parsed,
                 'ip': ip,
-                'country': final_country,
-                'is_cdn': False,
-                'cdn_provider': '',
-                'host': target_host,
-                'confidence': confidence,
-                'geoip_country': geoip_country,
-                'protocol': protocol,
-                'transport': transport
+                'country': country,
+                'is_cdn': is_cdn,
+                'cdn_provider': cdn_provider,
+                'host': target_host
             }
         except Exception as e:
             logger.debug(f"Failed to process config: {e}")
@@ -663,17 +451,12 @@ class CountryClassifier:
         logger.info(f"Processing {len(configs)} configurations...")
         
         self.results = {}
-        self.detailed_results = {}
         self.stats = {
             'total': len(configs),
             'success': 0,
             'failed': 0,
             'by_country': {},
-            'by_protocol': {},
-            'by_transport': {},
-            'with_tls': 0,
-            'without_tls': 0,
-            'cdn_count': 0
+            'by_protocol': {}
         }
         
         unique_configs = []
@@ -707,16 +490,7 @@ class CountryClassifier:
                         self.stats['success'] += 1
                         
                         country = result['country']
-                        protocol = result['normalized']['protocol']
-                        transport = result['normalized']['transport']
-                        
-                        if result['normalized'].get('tls', False):
-                            self.stats['with_tls'] += 1
-                        else:
-                            self.stats['without_tls'] += 1
-                        
-                        if result['is_cdn']:
-                            self.stats['cdn_count'] += 1
+                        protocol = result['parsed']['protocol']
                         
                         if country not in self.results:
                             self.results[country] = {}
@@ -728,10 +502,6 @@ class CountryClassifier:
                         
                         self.stats['by_country'][country] = self.stats['by_country'].get(country, 0) + 1
                         self.stats['by_protocol'][protocol] = self.stats['by_protocol'].get(protocol, 0) + 1
-                        self.stats['by_transport'][transport] = self.stats['by_transport'].get(transport, 0) + 1
-                        
-                        config_hash = hashlib.md5(result['config'].encode()).hexdigest()
-                        self.detailed_results[config_hash] = result
                 else:
                     with self.results_lock:
                         self.stats['failed'] += 1
@@ -741,7 +511,6 @@ class CountryClassifier:
         
         return {
             'results': self.results,
-            'detailed_results': self.detailed_results,
             'stats': self.stats
         }
     
@@ -791,10 +560,7 @@ class CountryClassifier:
             f.write(f"# Updated: {timestamp}\n\n")
             f.write(f"Total configs processed: {results['stats']['total']}\n")
             f.write(f"Successfully classified: {results['stats']['success']}\n")
-            f.write(f"Failed to classify: {results['stats']['failed']}\n")
-            f.write(f"With TLS: {results['stats']['with_tls']}\n")
-            f.write(f"Without TLS: {results['stats']['without_tls']}\n")
-            f.write(f"CDN domains: {results['stats']['cdn_count']}\n\n")
+            f.write(f"Failed to classify: {results['stats']['failed']}\n\n")
             
             f.write("By Country:\n")
             for country, count in sorted(results['stats']['by_country'].items(), key=lambda x: x[1], reverse=True):
@@ -803,14 +569,6 @@ class CountryClassifier:
             f.write("\nBy Protocol:\n")
             for protocol, count in sorted(results['stats']['by_protocol'].items(), key=lambda x: x[1], reverse=True):
                 f.write(f"  {protocol}: {count}\n")
-            
-            f.write("\nBy Transport:\n")
-            for transport, count in sorted(results['stats']['by_transport'].items(), key=lambda x: x[1], reverse=True):
-                f.write(f"  {transport}: {count}\n")
-        
-        details_file = os.path.join(output_dir, "details.json")
-        with open(details_file, 'w', encoding='utf-8') as f:
-            json.dump(results['detailed_results'], f, indent=2, default=str)
         
         logger.info(f"Results saved to {output_dir}")
 
@@ -853,7 +611,7 @@ def read_all_configs() -> List[str]:
 
 def main():
     print("=" * 60)
-    print("ARISTA SMART COUNTRY CONFIG CLASSIFIER")
+    print("COUNTRY CONFIG CLASSIFIER")
     print("=" * 60)
     
     try:
@@ -864,8 +622,7 @@ def main():
         
         logger.info(f"Found {len(configs)} configurations")
         
-        max_workers = int(os.environ.get('MAX_WORKERS', '30'))
-        classifier = CountryClassifier(max_workers=max_workers)
+        classifier = CountryClassifier(max_workers=30)
         start_time = time.time()
         
         results = classifier.process_configs(configs)
@@ -879,9 +636,6 @@ def main():
         print(f"Total configs: {results['stats']['total']}")
         print(f"Successfully classified: {results['stats']['success']}")
         print(f"Failed: {results['stats']['failed']}")
-        print(f"With TLS: {results['stats']['with_tls']}")
-        print(f"Without TLS: {results['stats']['without_tls']}")
-        print(f"CDN domains: {results['stats']['cdn_count']}")
         
         print(f"\n📊 Top Countries:")
         top_countries = sorted(
@@ -892,16 +646,6 @@ def main():
         
         for country, count in top_countries:
             print(f"  {country}: {count} configs")
-        
-        print(f"\n📊 Top Protocols:")
-        top_protocols = sorted(
-            results['stats']['by_protocol'].items(),
-            key=lambda x: x[1],
-            reverse=True
-        )[:10]
-        
-        for protocol, count in top_protocols:
-            print(f"  {protocol}: {count} configs")
         
         print(f"\n📁 Output saved to: configs/country/")
         print("=" * 60)
