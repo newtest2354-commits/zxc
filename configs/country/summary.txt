@@ -1,35 +1,35 @@
 # Country Classification Summary
-# Updated: 2025-12-24 13:55:27
+# Updated: 2025-12-24 15:37:50
 
-Total configs processed: 23056
-Successfully classified: 9311
-Failed to classify: 2217
-With TLS: 8152
-Without TLS: 1159
+Total configs processed: 23006
+Successfully classified: 9293
+Failed to classify: 2210
+With TLS: 8132
+Without TLS: 1161
 CDN domains: 175
 
 By Country:
-  IR: 6279
-  DE: 1380
-  US: 876
-  NL: 420
+  IR: 6154
+  DE: 1394
+  US: 966
+  NL: 423
   CDN: 175
   TR: 124
   SG: 57
 
 By Protocol:
-  vless: 7690
-  ss: 857
-  vmess: 494
-  trojan: 268
+  vless: 7667
+  ss: 850
+  vmess: 503
+  trojan: 271
   hysteria: 2
 
 By Transport:
-  tcp: 4592
-  ws: 3102
-  grpc: 1086
-  http: 526
+  tcp: 4578
+  ws: 3114
+  grpc: 1072
+  http: 524
   udp: 2
   kcp: 1
-  httpupgrade: 1
   xhttp: 1
+  httpupgrade: 1
