@@ -1,5 +1,5 @@
 # SE - SS Configurations
-# Updated: 2025-12-25 02:42:55
+# Updated: 2025-12-25 04:09:06
 # Count: 10
 # Country Code: SE
 
@@ -11,5 +11,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@4.223.106.151:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@4.223.106.240:48172#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5bzZoOXFraHd6OFVKb1RaQ1J0b1Np@78.40.116.178:34094#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNcnlYUnlaOU1ZcjQ5eTJPdkVZVlJx@78.40.116.165:30604#ARISTA🔥
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREl6Tw@se1.opensocks.site:8388#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREl6Tw==@se1.opensocks.site:8388#ARISTA🔥
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREl6Tw@se1.opensocks.site:8388#ARISTA🔥

@@ -1,8 +1,9 @@
 # All Configurations for CH
-# Updated: 2025-12-25 02:42:55
-# Total Count: 60
+# Updated: 2025-12-25 04:09:06
+# Total Count: 61
 # Country Code: CH
 
+vless://c42e4667-ca09-4769-b544-89a8da730daf@ch3.tunnely.ru:443?security=reality&encryption=none&pbk=pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ch3.tunnely.ru&sid=2e40144ddc07e8e1#ARISTA🔥
 vless://bf92bdef-ab8d-4481-8798-2d39023357b2@swiss.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=swiss.video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
 vless://feae6dd7-8adc-423b-eda7-7eb4a5289b54@141.11.164.233:11366?type=tcp&encryption=none&security=none#ARISTA🔥
 vless://dce1e7b5-60ab-4446-bb95-97e1234df5d6@141.11.164.233:11366?security=none&encryption=none&headerType=none&type=tcp#ARISTA🔥
@@ -11,7 +12,6 @@ vless://394e4c71-fb6a-4e3e-8843-efe4c98ae67e@84.234.28.119:51912?type=tcp&encryp
 vless://106c2ad7-71c6-4199-b497-80a89eee8316@84.234.28.119:51912?type=tcp&encryption=none&security=none#ARISTA🔥
 vless://5eb143fe-c792-4a11-9035-48d1009353a4@84.234.28.119:51912?type=tcp&encryption=none&security=none#ARISTA🔥
 vless://a7191bac-6b7b-4f5c-a318-37112dc42eff@84.234.28.119:51912?type=tcp&encryption=none&security=none#ARISTA🔥
-vless://c42e4667-ca09-4769-b544-89a8da730daf@ch3.tunnely.ru:443?security=reality&encryption=none&pbk=pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ch3.tunnely.ru&sid=2e40144ddc07e8e1#ARISTA🔥
 vless://bf92bdef-ab8d-4481-8798-2d39023357b2@swiss.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=swiss.video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
 vless://bf92bdef-ab8d-4481-8798-2d39023357b2@de.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
 vless://bf92bdef-ab8d-4481-8798-2d39023357b2@net2.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
@@ -24,6 +24,7 @@ vless://b30d10d0-6a2f-4f59-a36b-cd3a61b8a35a@li.intfreed.ru:11443?mode=gun&secur
 vless://b30d10d0-6a2f-4f59-a36b-cd3a61b8a35a@tr.intfreed.ru:11443?mode=gun&security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&fp=qq&type=grpc&sni=video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
 vless://b30d10d0-6a2f-4f59-a36b-cd3a61b8a35a@ac-rez.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&fp=qq&spx=%2F&type=xhttp&sni=video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
 vless://b30d10d0-6a2f-4f59-a36b-cd3a61b8a35a@net2.intfreed.ru:11443?mode=gun&security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&fp=qq&type=grpc&sni=video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
+vless://c42e4667-ca09-4769-b544-89a8da730daf@ch3.tunnely.ru:443?security=reality&amp;encryption=none&amp;pbk=pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=ch3.tunnely.ru&amp;sid=2e40144ddc07e8e1#ARISTA🔥
 vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24472?type=ws&path=%2F&host=&security=none#ARISTA🔥
 vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24472?path=/&security=none&encryption=none&type=ws#ARISTA🔥
 vless://394e4c71-fb6a-4e3e-8843-efe4c98ae67e@84.234.28.119:51912?security=none&encryption=none&headerType=none&type=tcp#ARISTA🔥
@@ -44,8 +45,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMQ2o4OU5ycU10bVRuVVlOeldpU1hZ@138.124.67.26:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBeXlhUGpuS0Z0SjZNU2RVR0cwcFdu@138.124.67.26:443#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0ckhSbFZwTnNFT0xqNTVJT0FpRUx3@45.95.232.236:4248#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3bUJmMU1Mb251QUs5NGZGVjJLVXJK@45.95.232.236:4248#ARISTA🔥
-ss://YWVzLTEyOC1nY206c01ORXV2RWZSUllOZkNiR0NzMUZwdw@bd-rez.intfreed.ru:443#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozdkI2UU5rbExOV3ZsVWY2c0phNUVQ@45.95.232.236:4248#ARISTA🔥
+ss://YWVzLTEyOC1nY206c01ORXV2RWZSUllOZkNiR0NzMUZwdw@bd-rez.intfreed.ru:443#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4VGc1ODN5bzFRZDRmUEszWWdVME9S@45.95.232.236:4248#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBV1RKalljZXVSS3lQZE1ldVl0YXh4@45.95.232.236:4248#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDZ0ZjOFBOazhRSEhjVzdsVEZUZUlk@45.95.232.236:4248#ARISTA🔥
