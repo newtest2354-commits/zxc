@@ -1,6 +1,7 @@
 # CN - SS Configurations
-# Updated: 2025-12-25 04:09:06
-# Count: 1
+# Updated: 2025-12-25 14:02:56
+# Count: 2
 # Country Code: CN
 
 ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#ARISTA🔥
+ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwbVltSTJOMk14Tnkxak5ETTVMVFJsWXpNdE9UVTVOQzFoTjJZeE0yUXdaalZpWldJ@free.2weradf.xyz:36641#ARISTA🔥

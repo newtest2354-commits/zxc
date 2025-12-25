@@ -1,6 +1,6 @@
 # IS - TROJAN Configurations
-# Updated: 2025-12-25 04:09:06
+# Updated: 2025-12-25 14:02:56
 # Count: 1
 # Country Code: IS
 
-trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.172:10889?security=tls&amp;insecure=1&amp;headerType=none&amp;type=tcp&amp;allowInsecure=1&amp;sni=web.max.ru#ARISTA🔥
+trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.172:10889?security=tls&amp;sni=web.max.ru&amp;allowInsecure=true&amp;fp=chrome#ARISTA🔥
