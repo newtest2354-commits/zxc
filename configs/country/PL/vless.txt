@@ -1,6 +1,6 @@
 # PL - VLESS Configurations
-# Updated: 2025-12-24 17:13:29
-# Count: 18
+# Updated: 2025-12-25 02:42:55
+# Count: 21
 # Country Code: PL
 
 vless://b278fc13-9be7-4e21-90cb-cb52ac0e2469@plb.tunnelguard.ru:443?encryption=none&type=xhttp&mode=auto&path=/&security=tls&fp=firefox&sni=plb.tunnelguard.ru&alpn=h2,http/1.1#ARISTA🔥
@@ -13,6 +13,9 @@ vless://00f354d5-86ae-43dc-8b63-47006b9139da@144.31.2.110:443?security=reality&e
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@54.38.137.111:2053?path=/&security=tls&encryption=none&fp=chrome&type=ws#ARISTA🔥
 vless://1091ab59-e8b5-4fca-bdd5-58fcff4fed1f@poland25.clearorbitllc.com:443?security=reality&encryption=none&pbk=-QlxjsQ9QuUaQmCG6D4pPTaLhHKbgYUCJs9rdfS5hzc&host=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=poland25.clearorbitllc.com&sid=ad76d8e3#ARISTA🔥
 vless://98cb33a8-d6f7-41f0-8796-e4b471d65df8@144.31.5.179:443?encryption=none&type=ws&security=none#ARISTA🔥
+vless://98cb33a8-d6f7-41f0-8796-e4b471d65df8@144.31.5.179:443?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&security=none&encryption=none&type=ws#ARISTA🔥
+vless://98cb33a8-d6f7-41f0-8796-e4b471d65df8@144.31.5.179:443?path=/&security=none&encryption=none&type=ws#ARISTA🔥
+vless://98cb33a8-d6f7-41f0-8796-e4b471d65df8@144.31.5.179:443?security=&encryption=none&type=ws#ARISTA🔥
 vless://98cb33a8-d6f7-41f0-8796-e4b471d65df8@144.31.5.179:443?security=none&encryption=none&type=ws#ARISTA🔥
 vless://99dc9865-f909-4ee2-b9ec-eb4b4aca9bd7@146.59.116.158:42630?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#ARISTA🔥
 vless://b278fc13-9be7-4e21-90cb-cb52ac0e2469@plb.tunnelguard.ru:443?mode=auto&path=/&security=tls&alpn=h2,http/1.1&encryption=none&extra={"scMaxEachPostBytes":1000000,"scMaxConcurrentPosts":100,"scMinPostsIntervalMs":30,"xPaddingBytes":"100-1000","noGRPCHeader":false}&fp=chrome&type=xhttp&sni=plb.tunnelguard.ru#ARISTA🔥
