@@ -1,4 +1,4 @@
-Updated: 2025-12-25 14:02 UTC
-Telegram configs: 1523
-GitHub configs: 10343
-Combined configs: 11608
+Updated: 2025-12-26 04:02 UTC
+Telegram configs: 1530
+GitHub configs: 10333
+Combined configs: 11600

@@ -1,63 +1,64 @@
 # Country Classification Summary
-# Updated: 2025-12-25 14:02:56
+# Updated: 2025-12-26 04:02:24
 
-Total configs processed: 23208
-Successfully classified: 8723
-Failed to classify: 2881
+Total configs processed: 23192
+Successfully classified: 8668
+Failed to classify: 2928
 
 By Country:
-  UNKNOWN: 2307
-  US: 1885
-  RU: 848
-  DE: 827
-  MD: 275
-  NL: 265
+  UNKNOWN: 2303
+  US: 1676
+  RU: 847
+  DE: 815
+  MD: 283
+  NL: 268
   VN: 236
-  IR: 228
-  FI: 206
-  FR: 197
-  GB: 175
-  PL: 168
-  SE: 148
-  CY: 97
-  TR: 77
-  CH: 62
+  IR: 220
+  FI: 212
+  FR: 192
+  GB: 191
+  IT: 184
+  PL: 167
+  CY: 94
+  SE: 94
+  TR: 79
+  AT: 64
+  IE: 64
+  CA: 63
   LT: 62
-  CA: 61
-  DK: 50
-  HK: 50
-  AE: 45
+  CH: 61
+  HK: 47
+  AE: 46
   SG: 40
-  JP: 31
-  IT: 28
+  JP: 30
+  CZ: 28
   BG: 28
-  CZ: 27
-  UA: 15
-  IE: 14
-  ES: 14
+  UA: 16
+  AL: 14
   IN: 14
-  AT: 14
-  LV: 13
-  AL: 13
-  AZ: 12
+  ES: 13
+  AZ: 13
   MK: 10
-  KZ: 10
-  BR: 10
+  NO: 10
   CN: 9
+  KZ: 9
+  LV: 9
   MY: 9
-  AU: 9
-  NO: 9
+  BR: 9
+  AU: 8
   SK: 7
   EE: 7
-  TW: 6
-  MX: 6
+  MX: 7
   SI: 6
+  TW: 5
   GR: 5
   MT: 5
   PT: 5
   AM: 4
   ID: 4
+  LU: 4
   RO: 4
+  DK: 4
   RS: 4
   KR: 4
   ZA: 4
@@ -70,13 +71,13 @@ By Country:
   HU: 3
   PR: 3
   AR: 3
-  LU: 3
   ME: 2
   PA: 2
   BH: 2
   PY: 2
   HR: 2
   CO: 2
+  MU: 1
   VG: 1
   PK: 1
   MA: 1
@@ -84,15 +85,15 @@ By Country:
   CR: 1
   EC: 1
   GT: 1
-  DZ: 1
   BO: 1
   KH: 1
   GE: 1
   CL: 1
+  SC: 1
 
 By Protocol:
-  vless: 7123
-  ss: 1094
-  vmess: 323
-  trojan: 181
+  vless: 7056
+  ss: 1098
+  vmess: 328
+  trojan: 184
   hysteria: 2
