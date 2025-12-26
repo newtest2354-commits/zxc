@@ -1,12 +1,12 @@
 # All Configurations for PL
-# Updated: 2025-12-26 04:02:24
+# Updated: 2025-12-26 14:02:51
 # Total Count: 167
 # Country Code: PL
 
-vless://Vpn_Kadeh_Iran@146.59.117.172:41990?type=tcp&path=%2F&host=speedtest.com&headerType=http&security=none#ARISTA🔥
-vless://29f8a74e-c05f-4d2c-a4d3-0a809793ac0a@146.59.117.172:41990?type=tcp&path=%2F&host=speedtest.com&headerType=http&security=none#ARISTA🔥
 vless://d00d13b2-5cd3-4648-afa9-807983647ed8@144.31.3.129:443?encryption=none&type=ws&host=sinavm.ir&path=/&security=none#ARISTA🔥
 vless://98cb33a8-d6f7-41f0-8796-e4b471d65df8@144.31.5.179:443?path=%2F&security=&encryption=none&type=ws#ARISTA🔥
+vless://Vpn_Kadeh_Iran@146.59.117.172:41990?type=tcp&path=%2F&host=speedtest.com&headerType=http&security=none#ARISTA🔥
+vless://29f8a74e-c05f-4d2c-a4d3-0a809793ac0a@146.59.117.172:41990?type=tcp&path=%2F&host=speedtest.com&headerType=http&security=none#ARISTA🔥
 vless://b278fc13-9be7-4e21-90cb-cb52ac0e2469@plb.tunnelguard.ru:443?encryption=none&type=xhttp&mode=auto&path=/&security=tls&fp=firefox&sni=plb.tunnelguard.ru&alpn=h2,http/1.1#ARISTA🔥
 vless://98cb33a8-d6f7-41f0-8796-e4b471d65df8@144.31.5.179:443?path=/&security=none&encryption=none&type=ws#ARISTA🔥
 vless://b278fc13-9be7-4e21-90cb-cb52ac0e2469@plb.tunnelguard.ru:443?encryption=none&type=xhttp&mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&fp=firefox&sni=plb.tunnelguard.ru#ARISTA🔥
@@ -28,6 +28,7 @@ vless://fc363de7-5d11-42e0-b9c0-79d59274882a@fi.podpiska.vip:443?security=realit
 trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?security=tls&sni=5.188.108.13&allowInsecure=true&fp=chrome#ARISTA🔥
 trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?security=tls&allowInsecure=1&type=tcp&headerType=none#ARISTA🔥
 trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?security=tls&allowInsecure=1&type=tcp&headerType=none&note=@freeOnlineVPN#ARISTA🔥
+trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?sni=5.188.108.13&allowInsecure=1&fp=chrome#ARISTA🔥
 vmess://eyJhZGQiOiI0NS4xNTQuMTU2LjE3OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJiYzhlMTIzNS02Y2VmLTRiZGQtZjNmMi0wYjRmM2M4YTdiNzAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjMyNjQ4IiwicHMiOiJBUklTVEHwn5SlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiI4OS40Ni4yMzUuMjQ2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImNmYThjMmE1LTUxOTYtNDNjYi1iNTRiLWUzOTFiMjgzODgzNSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJBUklTVEHwn5SlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
 ss://YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==@217.30.10.18:9011#ARISTA🔥
@@ -45,7 +46,6 @@ ss://YWVzLTI1Ni1jZmI6SFNadXlKUWNXZThkeE5kRg@217.30.10.70:9043#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6SmRtUks5Z01FcUZnczhuUA@217.30.10.18:9003#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6SmRtUks5Z01FcUZnczhuUA@217.30.10.70:9003#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6THAyN3JxeUpxNzJiWnNxWA@217.30.10.70:9045#ARISTA🔥
-ss://YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ@217.30.10.18:9011#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ@217.30.10.70:9011#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6TnZTOE40VmY4cUFHUFNDTA@217.30.10.18:9046#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6TnZTOE40VmY4cUFHUFNDTA@217.30.10.70:9046#ARISTA🔥
@@ -63,7 +63,6 @@ ss://YWVzLTI1Ni1jZmI6VTZxbllSaGZ5RG1uOHNnbg@217.30.10.18:9041#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ@217.30.10.70:9033#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6VVdaUWVMUldua3Fna3NlcQ@217.30.10.18:9032#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6VVdaUWVMUldua3Fna3NlcQ@217.30.10.70:9032#ARISTA🔥
-ss://YWVzLTI1Ni1jZmI6VWtYUnNYdlI2YnVETUcyWQ@217.30.10.18:9001#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6VWtYUnNYdlI2YnVETUcyWQ@217.30.10.70:9001#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6WFB0ekE5c0N1ZzNTUFI0Yw@217.30.10.18:9025#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6WFB0ekE5c0N1ZzNTUFI0Yw@217.30.10.70:9025#ARISTA🔥
@@ -96,7 +95,6 @@ ss://YWVzLTI1Ni1jZmI6d2pUdWdYM1p0SE1COWMzWg@217.30.10.70:9057#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ@217.30.10.70:9060#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6eTlWVVJ5TnpKV05SWUVHUQ@217.30.10.18:9008#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6eTlWVVJ5TnpKV05SWUVHUQ@217.30.10.70:9008#ARISTA🔥
-ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@57.128.214.100:12000#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozTHBBSGNOU29sRVo5QWpkRU40bWlB@77.83.246.227:39830#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ==@217.30.10.18:9019#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6YUxwUXRmRVplNDQ1UXlIaw==@217.30.10.70:9098#ARISTA🔥
@@ -163,8 +161,10 @@ ss://YWVzLTI1Ni1jZmI6QmVqclF2dHU5c3FVZU51Wg==@217.30.10.70:9024#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCY3FBSDk4VFp2QW9jR01Za1F6eWMx@77.83.246.74:443#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3c2NBZklQdVROUm1tc1UxRTJJajhs@77.83.246.74:443#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6cnBnYk5uVTlyRERVNGFXWg@217.30.10.18:9094#ARISTA🔥
+ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@57.128.214.100:12000#ARISTA🔥
 ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ==@217.30.10.18:9060#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMzgzNzIyNGVkNDY1ZjAw@45.144.48.63:57456#ARISTA🔥
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VHMyWkRUUUFmM2hrRm9COEFGdWZEd3NHcmxGNGUydA@45.15.126.19:443#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3VUVDbXo4T29jNUhseGhkdTNoNWJ3@103.167.234.75:8443#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGdXU2WEw2eDdOb2luckNuckNJbW1w@57.128.219.105:5223#ARISTA🔥
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWbXNmMDZZVE1xdEFZZGh3TXFkU3VHcWdkVmttMHlkZGk0a1lhQUVWUVdZajlpSEE=@89.223.93.176:41348#ARISTA🔥

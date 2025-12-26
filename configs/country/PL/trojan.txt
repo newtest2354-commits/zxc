@@ -1,8 +1,9 @@
 # PL - TROJAN Configurations
-# Updated: 2025-12-26 04:02:24
-# Count: 3
+# Updated: 2025-12-26 14:02:51
+# Count: 4
 # Country Code: PL
 
 trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?security=tls&sni=5.188.108.13&allowInsecure=true&fp=chrome#ARISTA🔥
 trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?security=tls&allowInsecure=1&type=tcp&headerType=none#ARISTA🔥
 trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?security=tls&allowInsecure=1&type=tcp&headerType=none&note=@freeOnlineVPN#ARISTA🔥
+trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?sni=5.188.108.13&allowInsecure=1&fp=chrome#ARISTA🔥
