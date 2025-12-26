@@ -1,8 +1,9 @@
 # NO - TROJAN Configurations
-# Updated: 2025-12-26 14:02:51
-# Count: 3
+# Updated: 2025-12-26 17:17:13
+# Count: 4
 # Country Code: NO
 
 trojan://a5inYFE=JGV89+hjxIqgDp1tcWBd6@80.173.230.196:26279?security=tls&amp;sni=io.ozone.ru&amp;allowInsecure=true#ARISTA🔥
 trojan://RPyW62_b9aH.ztJKeArou@83.143.87.9:18581?security=tls&amp;allowInsecure=true#ARISTA🔥
 trojan://RPyW62_b9aH.ztJKeArou@83.143.87.9:18581?security=tls&headerType=none&type=tcp#ARISTA🔥
+trojan://a5inYFE=JGV89+hjxIqgDp1tcWBd6@80.173.230.196:26279?security=tls&headerType=none&type=tcp#ARISTA🔥
