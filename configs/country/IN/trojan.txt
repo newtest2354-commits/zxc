@@ -1,7 +1,7 @@
 # IN - TROJAN Configurations
-# Updated: 2025-12-26 17:17:13
+# Updated: 2025-12-27 04:05:33
 # Count: 2
 # Country Code: IN
 
-trojan://M7v%w11Se*@tttyder.wsone.icu:443/?type=tcp&security=tls&sni=tttyder.wsone.icu&fp=chrome#ARISTA🔥
 trojan://M=vdPVIuNS389OQ6iqbAn-5G@172.236.171.37:28042/?type=tcp&security=tls&sni=www.fuzzyfeelergauge.click&allowInsecure=1#ARISTA🔥
+trojan://M7v%w11Se*@tttyder.wsone.icu:443/?type=tcp&security=tls&sni=tttyder.wsone.icu&fp=chrome#ARISTA🔥

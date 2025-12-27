@@ -1,6 +1,0 @@
-# DK - VMESS Configurations
-# Updated: 2025-12-26 17:17:13
-# Count: 1
-# Country Code: DK
-
-vmess://eyJ2IjoiMiIsInBzIjoiQVJJU1RB8J+UpSIsImFkZCI6IjQ1LjEzNi43MC4xOSIsInBvcnQiOiIyNDI5OCIsInR5cGUiOiJub25lIiwiaWQiOiI3MzI0ZDJiZi1lMjQxLTRlZGUtYjQ5MC03NTNkYzI2YjFiOGMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
