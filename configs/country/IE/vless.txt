@@ -1,13 +1,14 @@
 # IE - VLESS Configurations
-# Updated: 2025-12-27 04:05:33
-# Count: 8
+# Updated: 2025-12-27 13:55:03
+# Count: 9
 # Country Code: IE
 
-vless://SVNTEAM@JOIN-SVNTEAM.fast.hosting-ip.com:80/?type=ws&path=%2F@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam%3Fed%3D2048&host=CloudFlare.JOIN-SVNTEAM.wWw.SpeedTeSt.cOm.Zula.ir.0.0.0.0.SVNTEAM-SVNTEAN.ir&security=none#ARISTA🔥
-vless://a1adf38b-3055-4865-a46e-15e62f4a0e4c@CONFiGLiNE.fast.hosting-ip.com:80?mode=auto&path=%2Ftelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%3Fed%3D80&security=none&encryption=none&host=goldenpeshkel.com&type=xhttp#ARISTA🔥
-vless://371c3285-f15a-4a64-b8e1-1ad8a5d8f01d@v2ray_configs_pools.fast.hosting-ip.com:80?mode=auto&path=/v2ray_configs_pools?ed=2048@v2ray_configs_pools----@v2ray_configs_pools----@v2ray_configs_pools&security=none&encryption=none&host=crazyofferzzshopp.com&type=xhttp#ARISTA🔥
-vless://584bb6f2-aaf3-48a6-b154-b03238bb1e07@v2hich.fast.hosting-ip.com:80?path=/@SvnProBot?ed=2560&security=none&encryption=none&host=shad.ir&type=ws#ARISTA🔥
-vless://8b4bb431-21bf-46c9-a4bf-4deac75613f9@nwarne.fast.hosting-ip.com:80?path=/de?ed=1048&security=none&encryption=none&host=Shuposipet.com&type=ws#ARISTA🔥
+vless://c08b8aa6-77a5-4ac8-ae22-260dfff4d572@hajimamadvpnjoinsho.fast199.hosting-ip.com:80/?type=ws&path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&host=downloadha.global.ssl.fastly.net&security=none#ARISTA🔥
+vless://cfcb0479-85f1-4467-914a-459157b696f9@Configline.fast.hosting-ip.com:80?mode=auto&path=%2Ftelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%3Fed%3D80&security=none&encryption=none&host=mastokhiar2.com&type=xhttp#ARISTA🔥
+vless://832a3784-7ae1-4ff2-ab13-5fb4bf8abd28@hajimamadvpnjoinsho.fast199.hosting-ip.com:80?path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&security=none&encryption=none&host=downloadha.global.ssl.fastly.net&type=ws#ARISTA🔥
+vless://662dc9c9-ee34-46af-bc2e-3a39daf199f0@NuFiLteR.fast.hosting-ip.com:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&security=none&encryption=none&host=abazsargozashteh.com&type=xhttp#ARISTA🔥
+vless://8b4bb431-21bf-46c9-a4bf-4deac75613f9@nwarne.fast.hosting-ip.com:80?path=/de?ed=1048&security=none&encryption=none&host=Afkarnews.com&type=ws#ARISTA🔥
 vless://8b4bb431-21bf-46c9-a4bf-4deac75613f9@nwarne.fast.hosting-ip.com:80?path=/de?ed=1048&security=none&encryption=none&host=Shupyghb.com&type=ws#ARISTA🔥
-vless://d214752d-1ebd-40be-89f6-7e901a4066f1@nufilter.fast.hosting-ip.com:80?mode=auto&path=/telegram-v2ray_configs_pools,telegram-v2ray_configs_pools?ed=80&security=&encryption=none&host=abazsargozashteh.com&type=xhttp#ARISTA🔥
-vless://d214752d-1ebd-40be-89f6-7e901a4066f1@nufilter.fast.hosting-ip.com:80?mode=auto&path=/telegram-v2ray_configs_pools-v2ray_configs_pools,telegram-v2ray_configs_pools?ed=80&security=&encryption=none&host=abazsargozashteh.com&type=xhttp#ARISTA🔥
+vless://9fbfeb23-9b2e-4891-b609-857c1d082ccd@pivaz.fastly80.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=triplef_sony.global.ssl.fastly.net&type=xhttp#ARISTA🔥
+vless://b9c20ba9-da82-4082-a97a-977b4fbed67b@n-vip.hulkirani1.ir:80?path=/&security=none&encryption=none&host=greencp3.global.ssl.fastly.net&type=ws#ARISTA🔥
+vless://fef15ae1-cdc9-42ec-9c76-ea083550fd45@erfwp.fast.hosting-ip.com:80?mode=auto&path=/erfwp?ed=2048&security=none&encryption=none&host=erfwp.com&type=xhttp#ARISTA🔥
